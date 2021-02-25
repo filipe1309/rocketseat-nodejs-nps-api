@@ -53,3 +53,40 @@ yarn typeorm migration:revert
 
 yarn add uuid
 yarn add @types/uuid -D
+
+vscode alt+shift+o = organize imports
+
+yarn typeorm migration:create -n CreateSurveys
+yarn typeorm migration:run
+
+Tests
+
+- Unit tests (backend)
+- Integration test (backend)
+  -> request -> routes -> controller -> repository
+  <- repository <-controller <- response
+- End-to-end (E2E) (frontend)
+
+https://jestjs.io/
+yarn add jest @types/jest -D
+yarn jest --init
+yarn add ts-jest -D
+yarn test
+
+Test example
+
+```js
+describe("First", () => {
+  it("should be possible to sum 2 numbers", () => {
+    expect(2 + 2).toBe(4);
+  });
+
+  it("should be possible to sum 2 numbers", () => {
+    expect(2 + 2).not.toBe(5);
+  });
+});
+```
+
+To test the API (HTTP assertions), and integration tests
+https://www.npmjs.com/package/supertest
+yarn add supertest @types/supertest -D
