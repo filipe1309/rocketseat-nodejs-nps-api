@@ -90,3 +90,18 @@ describe("First", () => {
 To test the API (HTTP assertions), and integration tests
 https://www.npmjs.com/package/supertest
 yarn add supertest @types/supertest -D
+
+yarn typeorm migration:create -n CreateSurveysUsers
+
+## Email
+
+https://nodemailer.com/ (email sending)
+https://ethereal.email/ (fake SMTP service)
+
+yarn add nodemailer
+// Enable autocomplete
+yarn add @types/nodemailer -D
+
+https://handlebarsjs.com/
+
+yarn add handlebars

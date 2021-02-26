@@ -2,7 +2,7 @@
 
 This app was developed during NLW 4.0 (Next Level Week), and aims to simulate an NPS (Net Promoter Score) API using NodeJS.
 
-## 💻 Tecnologies
+## 💻 Technologies
 
 - NodeJS
 - Express
