@@ -107,7 +107,7 @@ yarn add @types/nodemailer -D
 https://handlebarsjs.com/
 yarn add handlebars
 
-## Validation
+## Schema validation
 
 Yup is a schema builder for value parsing and validation
 https://github.com/jquense/yup
