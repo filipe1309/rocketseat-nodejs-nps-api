@@ -102,6 +102,19 @@ yarn add nodemailer
 // Enable autocomplete
 yarn add @types/nodemailer -D
 
-https://handlebarsjs.com/
+## Email template
 
+https://handlebarsjs.com/
 yarn add handlebars
+
+## Validation
+
+Yup is a schema builder for value parsing and validation
+https://github.com/jquense/yup
+yarn add yup
+
+pkill node
+
+## Errors
+
+yarn add express-async-errors
