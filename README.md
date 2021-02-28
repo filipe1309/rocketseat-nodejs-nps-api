@@ -4,12 +4,16 @@ This app was developed during NLW 4.0 (Next Level Week), and aims to simulate an
 
 ## 💻 Technologies
 
-- NodeJS
-- Express
-- TypeScript
-- TypeORM
-- Jest
-- Supertest
+- [NodeJS](https://nodejs.org/) _(v14.14.0)_
+- [Express](https://expressjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Nodemailer](https://nodemailer.com/) _(Email sending)_
+- [Ethereal](https://ethereal.email/) _(Fake SMTP service)_
+- [TypeORM](https://typeorm.io/#/)
+- [Handlebarsjs](https://handlebarsjs.com/) _(Email template)_
+- [Yup](https://github.com/jquense/yup) _(Schema validation)_
+- [Jest](https://jestjs.io/)
+- [Supertest](https://www.npmjs.com/package/supertest)
 
 ## 🧰 Architecture
 
